@@ -1,0 +1,1053 @@
+$sitecolor: #FF5336;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+}
+
+nav{
+    width: 1438px;
+    margin: 0 auto;
+    .container-nav{
+        width: 85%;
+        display: flex;
+        margin: 0 auto;
+        a{
+            font-family: "League Spartan", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-size: 16px;
+            text-decoration: none;
+            color: black;
+        }
+        }
+        select{
+            border: none;
+        }
+    }
+    .logo-img{
+        margin-top: 10px;
+    }
+    .nav-mid{
+        display: flex;
+        gap: 52px;
+        margin: 0 auto;
+        margin-top: 45px;
+    }
+    .nav-right{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        .kayit{
+            display: block;
+            width: 97px;
+            height: 20px;
+            text-align: center;
+            padding-top: 4px;
+            color: white;
+            background-color: $sitecolor;
+            border-radius: 15px;
+            margin-left: 25px;
+            
+        }
+    }
+
+    main{
+        width: 1438px;
+        height: 475px;
+        margin: 0 auto;
+        padding-top: 70px;
+        background-image: url("../image/konfurlu/Mask\ group.png");
+        .wrapper{
+            width: 1170px;
+            height: 342px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 15px;
+            h1{
+                font-family: "League Spartan", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 29px;
+            }
+            h2{
+                font-family: "League Spartan", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+                font-size: 30px;
+                text-align: center;
+                color: $sitecolor;
+                margin-top: 23px;
+            }
+            .container-transfer{
+                width: 65%;
+                display: flex;
+                margin: 0 auto;
+                justify-content: space-between;
+                margin-top: 34px;
+                button:hover{
+                    border-bottom: 3px solid $sitecolor;
+                }
+                button{
+                    width: auto;
+                    height: 38px;
+                    display: flex;
+                    border: none;
+                    background-color: white;
+                    font-size: 20px;
+                    font-family: "League Spartan", sans-serif;
+                    font-optical-sizing: auto;
+                    font-style: normal;
+                    cursor: pointer;
+                    .fa-solid{
+                        padding-right: 18px;
+                    }
+                }
+            }
+            .wrap{
+                display: flex;
+                width: 90%;
+                margin: 0 auto;
+                margin-top: 35px;
+                justify-content: space-between;
+                .fa-right-left{
+                    font-size: 22px;
+                    margin-top: 37px;
+                }
+                .nereden{
+                    width: 181px;
+                    height: 71px;
+                    .container-label{
+                        display: flex;
+                        width: 181px;
+                        height: 45px;
+                        border: 1px solid rgb(169, 169, 169);
+                        justify-content: space-around;
+                        margin-top: 8px;
+                        border-radius: 5px;
+                        select{
+                            border: none;
+                            width: 16px;
+                            height: 10px;
+                            margin-top: 19px;
+                        }
+                    }
+                    p{
+                        font-size: 20px;
+                        text-align: center;
+                        color: #868686;
+                    }
+                    label{
+                        display: block;
+                        border-radius: 5px;
+                        color: $sitecolor;
+                        font-size: 20px;
+                        padding-top: 15px;
+                    }
+                }
+                .gides{
+                    width: 200px;
+                    height: 71px;
+                    p{
+                        font-size: 20px;
+                        text-align: center;
+                        color: #868686;
+                    }
+                    input{
+                        width: 100%;
+                        height: 45px;
+                        margin-top: 8px;
+                        border: 1px solid rgb(169, 169, 169);
+                        border-radius: 5px;
+                        font-size: 20px;
+                        color: $sitecolor;
+                        padding-left: 20px;
+                    }
+                }
+                .yolcu{
+                    width: 100px;
+                    height: 71px;
+                    p{
+                        font-size: 20px;
+                        text-align: center;
+                        color: #868686;
+                    }
+                    button{
+                        display: flex;
+                        width: 100%;
+                        height: 45px;
+                        border: 1px solid rgb(169, 169, 169);
+                        background-color: white;
+                        margin-top: 8px;
+                        border-radius: 5px;
+                        font-size: 20px;
+                        color: $sitecolor;
+                        justify-content: space-around;
+                        cursor: pointer;
+                        padding-top: 13px;
+                    }
+                    .fa-minus{
+                        color: black;
+                    }
+                    .fa-plus{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+    .container-wrap{
+        width: 1170px;
+        margin: 0 auto;
+        margin-top: 41px;
+        .container-text{
+            display: flex;
+            justify-content: space-between;
+                h2{
+                    font-size: 26px;
+                    color: $sitecolor;
+                }
+                h3{
+                    font-size: 26px;
+                    margin-top: 19px;
+                }
+        }
+        .content{
+            display: flex;
+            width: 112px;
+            height: 60px;
+            justify-content: space-between;
+            .fa-arrow-left{
+                color: #6D6D6D;
+                font-size: 30px;
+                margin-top: 15px;
+            }
+            button{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                border: none;
+                color: white;
+                background-color: $sitecolor;
+                font-size: 30px;
+            }
+        }
+        .box-image{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 23px;
+            .box{
+                width: 278px;
+                height: 427px;
+                h1{
+                    width: 150px;
+                    height: 58px;
+                    background-color: white;
+                    color: $sitecolor;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 31px;
+                    border-radius: 0px 30px 30px 0px ;
+                }
+            }
+            .box1{
+                background-image: url("../image/populer/Mask\ group\ \(1\).png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .box2{
+                background-image: url("../image/populer/Mask\ group\ \(2\).png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .box3{
+                background-image: url("../image/populer/Mask\ group\ \(3\).png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .box4{
+                background-image: url("../image/populer/Mask\ group\ \(4\).png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+.tatilin{
+    width: 1440px;
+    margin: 0 auto;
+    height: 315px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 141px;
+    background-color: #1E1E1E;
+    .img-content{
+        position: absolute;
+        left: 135px;
+        bottom: 20px;
+    }
+    .h1-container{
+        margin-left: 471px;
+        margin-top: 53px;
+        height: 52px;
+        h1{
+            font-size: 26px;
+            color: white    ;
+        }
+        h2{
+            font-size: 22px;
+            color: #BCBCBC;
+            margin-top: 8px;
+        }
+    }
+    .container-sabah{
+        width: 950px;
+        margin-left: 469px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 48px;
+        .sabah{
+            width: 235px;
+            display: flex;
+            flex-wrap: wrap;
+            .fa-circle-notch{
+                font-size: 30px;
+                color: $sitecolor;
+                
+            }
+            h3{
+                font-size: 26px;
+                color: white;
+                padding-left: 12px;
+                padding-top: 6px;
+            }
+            p{
+                color: white;
+                text-align: center;
+            }
+        }
+    }
+}
+.container-wrapper{
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    .container-write{
+        margin-top: 156px;
+        h1{
+            height: 37px;
+            font-size: 40px;
+        }
+        h2{
+            width: 417px;
+            height: 58px;
+            font-size: 32px;
+            margin-top: 49px;
+        }
+        button{
+            width: 318px;
+            height: 68px;
+            border-radius: 15px;
+            border: none;
+            background-color: #FFE609;
+            font-size: 32px;
+            margin-top: 99px;
+            cursor: pointer;
+            box-shadow: 0 0 3px #FFE609;
+        }
+    }
+    .container-image{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        .box-img{
+            position: absolute;
+            left: 103px;
+            top: 46px;
+        }
+        .box-img1{
+            position: absolute;
+            left: 387px;
+        }
+        .box-img2{
+            position: absolute;
+            top: 320px;
+            left: 178px;
+        }
+        .box-img3{
+            position: absolute;
+            top: 320px;
+            left: 389px;
+        }
+    }
+}
+
+.packages{
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../image/ozel/1404945-full-size-blue-nature-wallpaper-1920x1200-for-iphone-5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    h1{
+        width: 100%;
+        font-size: 48px;
+        text-align: center;
+        color: #FFE609;
+        margin-top: 43px;
+    }
+    h2{
+        width: 100%;
+        text-align: center;
+        font-size: 36px;
+        margin-top: 21px;
+        color: white;
+    }
+    .container-nature{
+        width: 1170px;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        .box-nature{
+            width: 375px;
+            height: 554px;
+            border-radius: 30px;
+            margin-bottom: 55px;
+            background-color: white;
+            box-shadow: 0 0 10px black;
+            img{
+                width: 375px;
+                height: 267px;
+                border-radius: 30px 30px 0px 0px;
+            }
+            .texture{
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 39px;
+                h3{
+                    font-size: 26px;
+                    height: 26px;
+                }
+                p{
+                    width: 301px;
+                    height: 88px;
+                    font-size: 22px;
+                    margin-top: 23px;
+                    margin-left: 37px;
+                }
+                button{
+                    width: 207px;
+                    height: 68px;
+                    background-color: #FFE609;
+                    border-radius: 15px;
+                    color: black;
+                    font-size: 32px;
+                    border: none;
+                    margin-top: 23px;
+                    margin-bottom: 39px;
+                    box-shadow: 0 0 10px  #FFE609;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.wrap-email{
+    width: 1440px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .fa-envelope-open-text{
+        width: 75px;
+        height: 75px;
+        font-size: 73px;
+        color: #EC3011;
+        margin-right: 24px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    .container-email{
+        display: flex;
+        margin-left: 100px;
+        input{
+            width: 410px;
+            height: 69px;
+            border-radius: 10px;
+            border: 1px solid #9B9B9B80;
+            font-size: 22px;
+            padding-left: 30px;
+        }
+        button{
+            width: 145px;
+            height: 69px;
+            border: none;
+            background-color: #3554D1;
+            border-radius: 10px;
+            font-size: 28px;
+            color: white;
+            margin-left: 22px;
+            cursor: pointer;
+            box-shadow: 0 0 10px  #3554D1;
+        }
+    }
+}
+
+footer{
+    width: 1440px;
+    height: 358px;
+    background-color: #0C4375;
+    margin: 0 auto;
+    .container-footer{
+        display: flex;
+        width: 1170px;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 37px;
+        .about{
+            text-align: center;
+            p{
+                width: 257px;
+                color: white;
+                font-size: 18px;
+                margin-top: 25px;
+            }
+        }
+        .about-us{
+            margin-top: 70px;
+            h1{
+                font-size: 28px;
+                color: white;
+            }
+            p{
+                font-size: 22px;
+                color: white;
+                margin-top: 21px;
+                font-family: "League Spartan", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+            }
+        }
+        .services{
+            margin-top: 70px;
+            h1{
+                font-size: 28px;
+                color: white;
+                
+            }
+            p{
+                font-size: 22px;
+                color: white;
+                margin-top: 21px;
+                font-family: "League Spartan", sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+            }
+        }
+        .media{
+            margin-top: 70px;
+            h1{
+                font-size: 28px;
+                color: white;
+                text-align: end;
+        }
+    }
+  }
+  .media-button{
+    width: 294px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+    button{
+        width: 42px;
+        height: 42px;
+        border: none;
+        border-radius: 50%;
+        font-size: 22px;
+        color: #0C4375;
+    }}
+}
+@media (min-width: 933px) and (max-width: 1180px) {
+    nav{
+        width: 99%;
+        .container-nav{
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            .nav-mid{
+                margin-bottom: 1rem;
+            }
+            .nav-right{
+                display: none;
+                a{
+                    width: 100%;
+                    
+                }
+            }
+        }
+    }
+    main{
+        width: 99%;
+            .wrapper{
+                width: 85%;
+                h1{
+                    font-size: 30px;
+                }
+                h2{
+                    font-size: 25px;
+                }
+                .container-transfer{
+                    flex-wrap: wrap;
+                }
+                .wrap{
+                    flex-wrap: wrap;
+                    .yolcu{
+                        display: none;
+                    }
+                }
+
+            }
+    }
+    .container-wrap{
+        width: 99%;
+        .box-image{
+            flex-wrap: wrap;
+           
+            .box{
+                width: 49%;
+                height: 700px;
+               margin-top: 1rem;
+            }
+        }
+    }
+    .tatilin{
+        width: 99%;
+        height: auto;
+        .h1-container{
+            
+            h1{
+                width: 100%;
+            }
+            h2{
+                width: 100%;
+            }
+        }
+        .container-sabah{
+            width: 20%;
+            text-align: center;
+            flex-wrap: wrap;
+            .sabah{
+                flex-wrap: wrap;
+                width: 100%;
+                padding: 2rem;
+                text-align: center;
+                .fa-circle-notch{
+                    margin: 0 auto;
+                }
+                h3{
+                    margin: 10px;
+                }
+            }
+        }
+    }
+    .container-wrapper{
+        width: 99%;
+        flex-wrap: wrap;
+        .container-write{
+            width: 100%;
+            margin-bottom: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            h1{
+                width: 100%;
+                text-align: center;
+            }
+            h2{
+                width: 100%;
+                text-align: center;
+            }
+            
+        }
+        .container-image{
+            width: 100%;
+            margin-bottom: 400px;
+            justify-content: center;
+            margin-left: 180px;
+        }
+    }
+    .packages{
+        width: 99%;
+        h1{
+            font-size: 38px;
+        }
+        h2{
+            font-size: 26px;
+        }
+        .container-nature{
+            flex-wrap: wrap;
+            width: 50%;
+            justify-content: center;
+            .box-nature{
+                width: 99%;
+                height: auto;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+                .texture{
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 1rem;
+                    p{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .wrap-email{
+        width: 85%;
+        .container-email{
+            width: 40%;
+            input{
+                font-size: 15px;
+            }
+            button{
+                width: 30%;
+                font-size: 18px;
+                margin-left: 12px;
+            }
+        }
+    }
+    footer{
+        width: 99%;
+        height: auto;
+        .container-footer{
+            flex-wrap: wrap;
+            padding: 1rem;
+            width: 85%;
+            button{
+                width: 30px;
+                height: 30px;
+                font-size: 15px;
+            }
+            h1{
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media (max-width: 1036px) {
+    .gides1{
+        display: none;
+    }
+}
+@media (max-width: 932px) {
+    nav{
+        width: 99%;
+        .container-nav{
+            justify-content: space-between;
+            .nav-mid{
+                display: none;
+            }
+            .nav-right{
+                width: auto;
+            }
+        }
+    }
+    main{
+        width: 99%;
+            .wrapper{
+                width: 85%;
+                height: auto;
+                padding-bottom: 1rem;
+                h1{
+                    font-size: 26px;
+                }
+                h2{
+                    font-size: 23px;
+                }
+                .container-transfer{
+                    flex-wrap: wrap;
+                    button{
+                        width: 99%;
+                        justify-content: center;
+                    }
+                }
+                .wrap{
+                    flex-wrap: wrap;
+                    .yolcu{
+                        display: none;
+                    }
+                }
+
+            }
+    }
+    .container-wrap{
+        width: 99%;
+        .box-image{
+            flex-wrap: wrap;
+           
+            .box{
+                width: 49%;
+                height: 700px;
+               margin-top: 1rem;
+            }
+        }
+    }
+    .tatilin{
+        width: 99%;
+        height: auto;
+        .h1-container{
+            
+            h1{
+                width: 100%;
+            }
+            h2{
+                width: 100%;
+            }
+        }
+        .container-sabah{
+            width: 30%;
+            text-align: center;
+            flex-wrap: wrap;
+            .sabah{
+                flex-wrap: wrap;
+                width: 100%;
+                padding: 2rem;
+                text-align: center;
+                .fa-circle-notch{
+                    width: 100%;
+                    margin: 0 auto;
+                }
+                h3{
+                    margin: 10px;
+                }
+            }
+        }
+    }
+    .container-wrapper{
+        width: 99%;
+        flex-wrap: wrap;
+        .container-write{
+            width: 100%;
+            margin-bottom: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            h1{
+                width: 100%;
+                text-align: center;
+            }
+            h2{
+                width: 100%;
+                text-align: center;
+            }
+            
+        }
+        .container-image{
+            display: none;
+        }
+    }
+    .packages{
+        width: 99%;
+        h1{
+            font-size: 33px;
+        }
+        h2{
+            font-size: 22px;
+        }
+        .container-nature{
+            flex-wrap: wrap;
+            width: 50%;
+            justify-content: center;
+            .box-nature{
+                width: 99%;
+                height: auto;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+                .texture{
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 1rem;
+                    p{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .wrap-email{
+        width: 85%;
+        h2{
+            font-size: 20px;
+        }
+        h3{
+            display: none;
+        }
+        .container-email{
+            width: 40%;
+            input{
+                font-size: 14px;
+                margin-left: -70px;
+                width: 90%;
+                padding: 5px;
+                height: 60px;
+            }
+            button{
+                width: 40%;
+                font-size: 18px;
+                margin-left: 5px;
+                height: 60px;
+            }
+        }
+    }
+    footer{
+        width: 99%;
+        height: auto;
+        .container-footer{
+            flex-wrap: wrap;
+            padding: 1rem;
+            width: 85%;
+            button{
+                width: 30px;
+                height: 30px;
+                font-size: 14px;
+            }
+            h1{
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media (max-width: 772px) {
+    .gides{
+        display: none;
+    }
+    
+}
+@media (max-width: 650px) {
+    .tatilin{
+        
+        .img-content{
+            display: none;
+        }
+        .h1-container{
+            width: 99%;
+            height: auto;
+            margin-left: 0;
+            text-align: center;
+            h1{
+                width: 100%;
+            }
+            h2{
+                width: 100%;
+            }
+        }
+        .container-sabah{
+            width: 100%;
+            margin-left: 0;
+            .sabah{
+                text-align: center;
+                h3{
+                    width: 100%;
+                }
+                p{
+                    width: 100%;
+                }
+            }
+        }
+        
+    }
+}
+@media (max-width: 572px) {
+    .container-wrap{
+        .container-text{
+            h2{
+                font-size: 22px;
+            }
+            h3{
+                font-size: 18px;
+            }
+        }
+        .box-image{
+            .box{
+                width: 98%;
+            }
+        }
+    }
+    .packages{
+        .container-nature{
+            width: 75%;
+            .box-nature{
+                .texture{
+                    button{
+                        width: 150px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .wrap-email{
+        .fa-envelope-open-text{
+            font-size: 45px;
+            width: auto;
+            height: auto;
+        }
+        h2{
+            font-size: 19px;
+            margin-right: 30px;
+        }
+        .container-email{
+            margin-left: 30px;
+            input{
+                width: 100%;
+                font-size: 12px;
+            }
+            button{
+                font-size: 10px;
+            }
+        }
+    }
+}
+@media (max-width: 510px) {
+    .nereden{
+        display: none;
+    }
+    .fa-right-left{
+        display: none;
+    }
+}
